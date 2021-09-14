@@ -16,7 +16,7 @@
 import Header from "./frontend/components/Header.vue";
 import Footer from "./frontend/components/Footer.vue";
 // require("jquery");
-// import "../assets/css/style.css";
+import "../assets/css/style.css";
 // import "../assets/css/owl.carousel.min.css";
 // import "../assets/css/owl.theme.default.min.css";
 // import "../assets/css/swiper-bundle.min.css";
@@ -51,11 +51,7 @@ export default {
             }
         },
     },
-    mounted() {
-        // Autofilter();
-        // CustomJs();
-        // BootstrapBundle();
-    },
+    mounted() {},
 };
 </script>
 

@@ -563,10 +563,11 @@
 </template>
 
 <script>
-import BootstrapBundle from "../../../../assets/js/bootstrap.bundle.min.js";
+// import BootstrapBundle from "../../../../assets/js/bootstrap.bundle.min.js";
 export default {
     mounted() {
-        BootstrapBundle();
+        // BootstrapBundle();
+        require("../../../../assets/js/bootstrap.bundle.min.js");
     },
 };
 </script>
@@ -575,6 +576,6 @@ export default {
 .project-section {
     background: #fff !important;
 }
-@import "../../../../assets/css/bootstrap5.min.css";
-@import "../../css/home_slider_our_project.css";
+/* @import "../../../../assets/css/bootstrap5.min.css"; */
+/* @import "../../css/home_slider_our_project.css"; */
 </style>

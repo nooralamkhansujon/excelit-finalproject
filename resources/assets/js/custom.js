@@ -7,8 +7,7 @@
 // });
 
 //about-filter
-
-export default function CustomJs() {
+$(document).ready(function () {
     $.autofilter();
 
     // active class add remove
@@ -31,4 +30,4 @@ export default function CustomJs() {
             e.target.parentElement.children[1].classList.toggle("showmenu");
         });
     });
-}
+});

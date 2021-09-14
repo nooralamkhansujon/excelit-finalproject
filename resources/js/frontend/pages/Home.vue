@@ -3,7 +3,7 @@
     <about />
     <service />
     <counting />
-    <!-- <clients /> -->
+    <clients />
     <projects />
     <trusted-company />
 </template>
@@ -20,7 +20,7 @@ import Slider from "../components/home/Slider.vue";
 export default {
     components: {
         About,
-        // Clients,
+        Clients,
         Counting,
         Projects,
         Service,

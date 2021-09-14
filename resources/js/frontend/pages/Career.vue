@@ -136,9 +136,9 @@ export default {};
 <style scoped>
 .page-wrapper {
     background-image: url("../../../assets/images/giphy.gif");
-    background-position: center !important;
+    /* background-position: center !important;
     background-size: cover !important;
-    background-repeat: no-repeat !important;
+    background-repeat: no-repeat !important; */
 }
 @import "../css/career.css";
 </style>

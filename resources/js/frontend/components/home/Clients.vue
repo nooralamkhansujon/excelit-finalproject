@@ -97,7 +97,7 @@
                     <!-- /End feedback-slider -->
 
                     <!-- side thumbnail -->
-                    <div
+                    <!-- <div
                         class="
                             feedback-slider-thumb
                             hidden-xs
@@ -129,7 +129,7 @@
                                 <i class="fa fa-star"></i>
                             </span>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- /side thumbnail -->
                 </div>
                 <!-- /End col -->
@@ -142,18 +142,8 @@
 </template>
 
 <script>
-// require("jquery");
-// import "../../../../assets/js/carousel.js";
-// import "../../../../assets/js/owl.carousel.min.js";
-
-import ClientReview from "../../../../assets/js/client_review.js";
-import BootstrapBundle from "../../../../assets/js/bootstrap.bundle.min.js";
-
 export default {
-    mounted() {
-        BootstrapBundle();
-        // ClientReview();
-    },
+    mounted() {},
 };
 </script>
 

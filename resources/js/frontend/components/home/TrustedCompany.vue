@@ -123,11 +123,11 @@
 
 <script>
 import SliderFont from "../../../../assets/js/slider_font";
-import OwlCarousel from "../../../../assets/js/owl.carousel.min.js";
 
 export default {
     mounted() {
-        OwlCarousel();
+        // OwlCarousel();
+        require("../../../../assets/js/owl.carousel.min.js");
         SliderFont();
     },
 };

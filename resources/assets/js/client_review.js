@@ -23,6 +23,7 @@ export default function ClientReview() {
             767: {
                 nav: true,
                 dots: false,
+                items: 1,
             },
         },
     });
@@ -97,30 +98,30 @@ export default function ClientReview() {
     // for testimonial
     // $(".owl-carousel").owlCarousel();
 
-    // $(".owl-carousel").owlCarousel({
-    //     loop: true,
-    //     autoplay: true,
-    //     dots: false,
-    //     autoplayTimeout: 3000,
-    //     margin: 10,
-    //     responsiveClass: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //             nav: false,
-    //         },
-    //         600: {
-    //             items: 1,
-    //             nav: false,
-    //             loop: true,
-    //         },
-    //         1000: {
-    //             items: 1,
-    //             nav: false,
-    //             dots: false,
-    //             loop: true,
-    //         },
-    //     },
-    // });
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        dots: false,
+        autoplayTimeout: 3000,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+            },
+            600: {
+                items: 1,
+                nav: false,
+                loop: true,
+            },
+            1000: {
+                items: 1,
+                nav: false,
+                dots: false,
+                loop: true,
+            },
+        },
+    });
     // testimonial end
 }

@@ -196,38 +196,39 @@
                                     aria-labelledby="navbarDropdown"
                                 >
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/industry/fintech.html"
-                                            >Fintech</a
+                                            :to="{ name: 'Fintech' }"
+                                            >Fintech</router-link
                                         >
                                     </li>
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/industry/health.html"
-                                            >Healthcare</a
+                                            :to="{ name: 'Health' }"
+                                            >Healthcare</router-link
                                         >
                                     </li>
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/industry/e_commarce.html"
-                                            >E-Commerce</a
+                                            :to="{ name: 'Ecommerce' }"
+                                            >E-Commerce</router-link
                                         >
                                     </li>
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/industry/internet.html"
-                                            >Internet Of Things</a
+                                            :to="{ name: 'Internet' }"
+                                            >Internet Of Things</router-link
                                         >
                                     </li>
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/industry/transpotation.html"
-                                            >Trasportation & Logistics</a
+                                            :to="{ name: 'Transportation' }"
+                                            >Trasportation &
+                                            Logistics</router-link
                                         >
                                     </li>
                                 </ul>
