@@ -17,7 +17,7 @@
         <!-- Icons Css -->
         <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css">
         <!-- App Css-->
-        <link href="{{asset('assets\css\app.min.css')}}" id="app-style" rel="stylesheet" type="text/css">
+        <link href="{{asset('assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css">
 
          <script src="{{asset('assets/js/all.min.js')}}"></script>
 
@@ -38,13 +38,13 @@
 
         <div id="app"></div>
 
-        <script src="{{asset('assets\libs\jquery\jquery.min.js')}}"></script>
-        <script src="{{asset('assets\libs\bootstrap\js\bootstrap.bundle.min.js')}}"></script>
-        <script src="{{asset('assets\libs\metismenu\metisMenu.min.js')}}"></script>
-        <script src="{{asset('assets\libs\simplebar\simplebar.min.js')}}"></script>
-        <script src="{{asset('assets\libs\node-waves\waves.min.js')}}"></script>
+        <script src="{{asset('assets/libs/jquery/jquery.min.js')}}"></script>
+        <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        {{-- <script src="{{asset('assets/libs/metismenu/metisMenu.min.js')}}"></script> --}}
+        <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+        <script src="{{asset('assets/libs/node-waves/waves.min.js')}}"></script>
 
-        <script src="{{asset('assets\libs\bootstrap-touchspin\jquery.bootstrap-touchspin.min.js')}}"></script>
+        {{-- <script src="{{asset('assets\libs\bootstrap-touchspin\jquery.bootstrap-touchspin.min.js')}}"></script> --}}
         <!-- apexcharts -->
         <script src="{{asset('js\app.js')}}"></script>
         {{-- <script src="{{asset('assets\js\pages\ecommerce-cart.init.js')}}"></script> --}}

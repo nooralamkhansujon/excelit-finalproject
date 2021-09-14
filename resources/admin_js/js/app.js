@@ -165,4 +165,6 @@ function App() {
     })(jQuery);
 }
 
+console.log(jQuery);
+
 export default App;
