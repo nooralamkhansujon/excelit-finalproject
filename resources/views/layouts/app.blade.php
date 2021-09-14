@@ -8,74 +8,106 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
         <meta content="Themesbrand" name="author">
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="{{asset('assets/images/favicon.ico')}}">
-        <link href="{{asset('assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css')}}" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="{{asset('assets/css/all.min.css')}}"> -->
+  <!-- fancybox css file -->
+  <link rel="stylesheet" href="{{asset('assets/css/jquery.fancybox.css')}}">
+  <!-- owl carousel css file -->
+  <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/css/owl.theme.default.min.css')}}">
+  <!-- swiper css file -->
+  <link rel="Stylesheet" href="{{asset('assets/css/swiper-bundle.min.css')}}">
+  <!-- custom css -->
+  {{-- <link rel="stylesheet" href="{{asset('assets/css/counter.css')}}"> --}}
+  <link rel="stylesheet" href="{{asset('assets/css/backtotop.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/css/service_card.css')}}">
 
-        <!-- Bootstrap Css -->
-        <link href="{{asset('assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css">
-        <!-- Icons Css -->
-        <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css">
-        <!-- App Css-->
-        <link href="{{asset('assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/css/our_project.css')}}">
 
-         <script src="{{asset('assets/js/all.min.js')}}"></script>
+  <!-- for trusted company -->
+  {{-- <link rel="stylesheet" href="{{asset('assets/css/carousel.css')}}"> --}}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> --}}
+  <link rel="stylesheet" type="text/css" href="{{asset('assets/css/our_servics.css')}}">
 
-        <!-- for about company -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+  <!-- foor frontend slider start -->
+  {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+    integrity="sha256-DBYdrj7BxKM3slMeqBVWX2otx7x4eqoHRJCsSDJ0Nxw=" crossorigin="anonymous" /> --}}
+  {{-- <link rel="stylesheet" href="{{asset('assets/css/slider.css')}}" /> --}}
 
-        {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> --}}
-        {{-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> --}}
+  <!-- global style  -->
+  <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+  <!-- for menu bar -->
+  {{-- <link rel="stylesheet" href="{{asset('assets/css/menubar.css')}}"> --}}
 
 
+  <!-- for about company -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+
+  <!-- fontawesome js file -->
+
+  <script src="{{asset('assets/js/all.min.js')}}"></script>
+
+  <!-- for trusted company -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Our servics -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <style>
+      body{
+          background:#fff !important;
+      }
+  </style>
     </head>
     {{-- /**data-sidebar="dark" */ --}}
-    <body >
+    <body>
 
 
         <div id="app"></div>
 
-        <script src="{{asset('assets/libs/jquery/jquery.min.js')}}"></script>
-        <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-        {{-- <script src="{{asset('assets/libs/metismenu/metisMenu.min.js')}}"></script> --}}
-        <script src="{{asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
-        <script src="{{asset('assets/libs/node-waves/waves.min.js')}}"></script>
+    <!-- jquery cdn js file -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- bootstrap cdn js file -->
+<script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
 
-        {{-- <script src="{{asset('assets\libs\bootstrap-touchspin\jquery.bootstrap-touchspin.min.js')}}"></script> --}}
-        <!-- apexcharts -->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+    <!-- iso top js file -->
+    <script src="{{asset('assets/js/isotope.pkgd.min.js')}}"></script>
+    <!-- google fonts css -->
+    <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet">
+    <!-- fancybox js cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- swiper js file -->
+    <script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
+    <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/js/custom.js')}}"></script>
+    <!-- auto filter js  -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/AutoFilter@0.2/autofilter.js"></script>
+
+
+<!-- bg js -->
+{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script> --}}
+<!-- client review -->
+
+
+
         <script src="{{asset('js\app.js')}}"></script>
-        {{-- <script src="{{asset('assets\js\pages\ecommerce-cart.init.js')}}"></script> --}}
-
-        {{-- <script src="{{asset('assets\libs\apexcharts\apexcharts.min.js')}}"></script> --}}
-        {{-- <script src="{{asset('assets\js\pages\dashboard.init.js')}}"></script> --}}
-
-
-
-
-
-        <!-- JAVASCRIPT -->
-        {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script> --}}
-
-
-         <!-- bootstrap cdn js file -->
-
-         {{-- <script type="text/javascript"
-         src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/AutoFilter@0.2/autofilter.js"></script> --}}
-          <!-- bg js -->
-          {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-          <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script> --}}
-          <!-- client review -->
-
-
-        <!-- App js -->
-
-
-        {{-- <script src="{{asset('assets\js\app.js')}}"></script> --}}
 
     </body>
 

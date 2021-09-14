@@ -1,11 +1,11 @@
 <template>
-  <slider />
-  <about />
-  <service />
-  <counting />
-  <clients />
-  <projects />
-  <trusted-company />
+    <slider />
+    <about />
+    <service />
+    <counting />
+    <!-- <clients /> -->
+    <projects />
+    <trusted-company />
 </template>
 
 <script>
@@ -18,14 +18,14 @@ import TrustedCompany from "../components/home/TrustedCompany.vue";
 import Slider from "../components/home/Slider.vue";
 
 export default {
-  components: {
-    About,
-    Clients,
-    Counting,
-    Projects,
-    Service,
-    TrustedCompany,
-    Slider,
-  },
+    components: {
+        About,
+        // Clients,
+        Counting,
+        Projects,
+        Service,
+        TrustedCompany,
+        Slider,
+    },
 };
 </script>
