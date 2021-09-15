@@ -1,7 +1,7 @@
 <template>
-    <section style="background-color: #d1d8e0">
+    <section style="background-color: #fff">
         <!-- trusted company section start -->
-        <div class="container py-4" style="margin-top: 5%">
+        <div class="container py-4">
             <div class="section">
                 <div class="section-item">
                     <div class="row">
@@ -123,11 +123,12 @@
 
 <script>
 import SliderFont from "../../../../assets/js/slider_font";
-
+import OwlCarousel from "../../../../assets/js/owl.carousel.min.js";
 export default {
     mounted() {
         // OwlCarousel();
-        require("../../../../assets/js/owl.carousel.min.js");
+        OwlCarousel();
+        // require("../../../../assets/js/owl.carousel.min.js");
         SliderFont();
     },
 };

@@ -7,6 +7,12 @@ import Fintech from "../pages/Fintech";
 import Health from "../pages/Health.vue";
 import Internet from "../pages/Internet.vue";
 import Transportation from "../pages/Transportation.vue";
+import Contact from "../pages/Contact.vue";
+import WebApplication from "../pages/WebApplication.vue";
+import MobileApplication from "../pages/MobileApplication.vue";
+import UiUxDesign from "../pages/UiUxDesign.vue";
+import CustomSoftware from "../pages/CustomSoftware.vue";
+import DigitalMarketing from "../pages/DigitalMarketing.vue";
 const routes = [
     {
         path: "/",
@@ -102,9 +108,87 @@ const routes = [
         // },
     },
     {
+        path: "/contact",
+        component: Contact,
+        name: "Contact",
+        meta: { requiresUser: true, frontend: true },
+        // beforeEnter: (to, _, next) => {
+        //     if (to.meta.requiresUser && isAuthUser()) {
+        //         next();
+        //     } else {
+        //         next({ name: "Login" });
+        //     }
+        // },
+    },
+    {
         path: "/industries/transportation",
         component: Transportation,
         name: "Transportation",
+        meta: { requiresUser: true, frontend: true },
+        // beforeEnter: (to, _, next) => {
+        //     if (to.meta.requiresUser && isAuthUser()) {
+        //         next();
+        //     } else {
+        //         next({ name: "Login" });
+        //     }
+        // },
+    },
+    {
+        path: "/service/web-application",
+        component: WebApplication,
+        name: "WebApplication",
+        meta: { requiresUser: true, frontend: true },
+        // beforeEnter: (to, _, next) => {
+        //     if (to.meta.requiresUser && isAuthUser()) {
+        //         next();
+        //     } else {
+        //         next({ name: "Login" });
+        //     }
+        // },
+    },
+    {
+        path: "/service/mobile-application",
+        component: MobileApplication,
+        name: "MobileApplication",
+        meta: { requiresUser: true, frontend: true },
+        // beforeEnter: (to, _, next) => {
+        //     if (to.meta.requiresUser && isAuthUser()) {
+        //         next();
+        //     } else {
+        //         next({ name: "Login" });
+        //     }
+        // },
+    },
+    {
+        path: "/services/ui-ux-design",
+        component: UiUxDesign,
+        name: "UiUxDesign",
+        meta: { requiresUser: true, frontend: true },
+        // beforeEnter: (to, _, next) => {
+        //     if (to.meta.requiresUser && isAuthUser()) {
+        //         next();
+        //     } else {
+        //         next({ name: "Login" });
+        //     }
+        // },
+    },
+    {
+        path: "/services/digital-marketing",
+        component: DigitalMarketing,
+        name: "DigitalMarketing",
+        meta: { requiresUser: true, frontend: true },
+        // beforeEnter: (to, _, next) => {
+        //     if (to.meta.requiresUser && isAuthUser()) {
+        //         next();
+        //     } else {
+        //         next({ name: "Login" });
+        //     }
+        // },
+    },
+    {
+        path: "/services/custom-software",
+        component: CustomSoftware,
+        name: "CustomSoftware",
         meta: { requiresUser: true, frontend: true },
         // beforeEnter: (to, _, next) => {
         //     if (to.meta.requiresUser && isAuthUser()) {

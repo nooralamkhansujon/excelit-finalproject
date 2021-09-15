@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description">
         <meta content="Themesbrand" name="author">
-        <link rel="stylesheet" href="{{asset('assets/css/all.min.css')}}">
+        {{-- <link rel="stylesheet" href="{{asset('assets/css/all.min.css')}}"> --}}
           <!-- google fonts css -->
     <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet">
   <!-- fancybox css file -->
@@ -27,7 +27,7 @@
   <!-- for trusted company -->
   {{-- <link rel="stylesheet" href="{{asset('assets/css/carousel.css')}}"> --}}
   {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> --}}
-  <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap5.min.css')}}">
+  {{-- <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap5.min.css')}}"> --}}
   {{-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> --}}
   {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> --}}
 
@@ -79,8 +79,8 @@
 
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+{{-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script> --}}
     {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
@@ -99,7 +99,7 @@
     <script type="text/javascript"
     src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/AutoFilter@0.2/autofilter.js"></script>
     <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('assets/js/custom.js')}}"></script>
+    {{-- <script src="{{asset('assets/js/custom.js')}}"></script> --}}
     <!-- auto filter js  -->
     {{-- <script type="text/javascript"
     src="https://cdn.jsdelivr.net/gh/GianlucaChiarani/AutoFilter@0.2/autofilter.js"></script> --}}

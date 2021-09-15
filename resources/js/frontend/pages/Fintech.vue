@@ -12,7 +12,14 @@
                         Banking and financial software development expertise
                     </h3>
                     <br />
-                    <p style="text-align: center">
+                    <p
+                        style="
+                            text-align: justify;
+                            text-align: center;
+                            font-size: medium;
+                            color: #fff;
+                        "
+                    >
                         We offer custom payment gateway development services to
                         help you reduce costs for sign-ups and long-term fees
                         offered by ready-made payment software solutions. The
@@ -64,11 +71,13 @@
     </section>
     <!-- industries top title section end -->
     <!-- uses tecnology section start -->
-    <section style="background-color: #dbf2ee; padding: 50px 0px 50px 0px">
+    <section class="linear_gradient" style="padding: 50px 0px 50px 0px">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 offset-sm-3 mt-4 mb-4">
-                    <h4 style="text-align: center">Technologies that we use</h4>
+                    <h4 style="text-align: center; text-transform: uppercase">
+                        Technologies that we use
+                    </h4>
                 </div>
                 <div class="col-sm-6 offset-sm-3 mt-4 mb-4">
                     <p
@@ -128,3 +137,29 @@
 import "../../../assets/css/bootstrap5.min.css";
 export default {};
 </script>
+
+<style scoped>
+.fintech {
+    background-image: url(../../../assets/images/industries/web_development_bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li,
+h4 {
+    color: rgba(25, 204, 160);
+}
+p,
+li:hover,
+a {
+    color: #fff;
+}
+.linear_gradient {
+    background: linear-gradient(
+        to bottom,
+        rgba(52, 78, 99, 0.9),
+        rgba(52, 78, 99)
+    );
+}
+</style>

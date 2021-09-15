@@ -5,7 +5,7 @@
         <section class="about-section" style="background-color: #d1d8e0">
             <div class="container">
                 <div class="row">
-                    <div class="section-heading col-md-12 my-3">
+                    <div class="section-heading col-md-12 mb-2">
                         <h2
                             class="text-center text-uppercase py-3"
                             style="color: green"

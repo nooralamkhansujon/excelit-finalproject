@@ -124,8 +124,10 @@
                                         >
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="#"
-                                            >Digital Marketing</a
+                                        <router-link
+                                            class="dropdown-item"
+                                            :to="{ name: 'DigitalMarketing' }"
+                                            >Digital Marketing</router-link
                                         >
                                     </li>
                                 </ul>
@@ -143,39 +145,42 @@
                                     aria-labelledby="navbarDropdown"
                                 >
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/services/web_application_development.html"
-                                            >Web Application Development</a
+                                            :to="{ name: 'WebApplication' }"
+                                            >Web Application
+                                            Development</router-link
                                         >
                                     </li>
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/services/mobile_application_development.html"
-                                            >Mobile Application Development</a
+                                            :to="{ name: 'MobileApplication' }"
+                                            >Mobile Application
+                                            Development</router-link
                                         >
                                     </li>
 
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/services/ui_ux_design.html"
-                                            >UI/UX Design</a
+                                            :to="{ name: 'UiUxDesign' }"
+                                            >UI/UX Design</router-link
                                         >
                                     </li>
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/services/custom_software_development.html"
-                                            >Coustom Software Development</a
+                                            :to="{ name: 'CustomSoftware' }"
+                                            >Coustom Software
+                                            Development</router-link
                                         >
                                     </li>
                                     <li>
-                                        <a
+                                        <router-link
                                             class="dropdown-item"
-                                            href="page/services/degital_marketing.html"
-                                            >Digital Marketing</a
+                                            :to="{ name: 'DigitalMarketing' }"
+                                            >Digital Marketing</router-link
                                         >
                                     </li>
                                 </ul>
@@ -242,7 +247,11 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">contact us</a>
+                                <router-link
+                                    class="nav-link"
+                                    :to="{ name: 'Contact' }"
+                                    >contact us</router-link
+                                >
                             </li>
                         </ul>
                     </div>
@@ -254,10 +263,18 @@
 </template>
 
 <script>
-export default {};
+// import Popper from "../../../assets/js/popper.min.js";
+// import BootstrapBundle from "../../../assets/js/bootstrap4.bundle.min.js";
+// import JquerySlim from "../../../assets/js/jquery-3.5.1.slim.min.js";
+export default {
+    mounted() {
+        // JquerySlim();
+        // BootstrapBundle();
+    },
+};
 </script>
 
 <style scoped>
-/* @import "../../../assets/css/bootstrap5.min.css"; */
+/* @import "../../../assets/css/bootstrap4.min.css"; */
 @import "../../../assets/css/menubar.css";
 </style>

@@ -1,3 +1,4 @@
+import "owl.carousel";
 export default function SliderFont() {
     // for bottom slider
     var owl = $(".owl-carousel");

@@ -574,7 +574,7 @@ export default {
 
 <style scoped>
 .project-section {
-    background: #fff !important;
+    background: #d1d8e0 !important;
 }
 /* @import "../../../../assets/css/bootstrap5.min.css"; */
 /* @import "../../css/home_slider_our_project.css"; */
